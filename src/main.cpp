@@ -7,6 +7,6 @@ int main(int argc, char* argv[])
     Game game;
     game.init();
     game.run();
-    game.quit();    
+    game.quit(); 
     return 0;
 }
