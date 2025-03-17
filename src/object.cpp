@@ -7,7 +7,7 @@ Obj::Obj()
 
 Obj::~Obj()
 {
-    printf("deconstruct Obj\n");
+    printf("deconstructing Obj\n");
 }
 
 void Obj::setPos(int x, int y)
