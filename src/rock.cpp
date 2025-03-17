@@ -1,8 +1,13 @@
 #include "rock.h"
 #include "game.h"
 
-Rock::Rock() : Obj()
+Rock::Rock()
 {
+}
+
+Rock::~Rock()
+{
+    printf("deconstructing Rock\n");
 }
 
 void Rock::handleEvent(SDL_Event &e)

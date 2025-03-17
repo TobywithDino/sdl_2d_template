@@ -5,6 +5,11 @@ Obj::Obj()
 {
 }
 
+Obj::~Obj()
+{
+    printf("deconstruct Obj\n");
+}
+
 void Obj::setPos(int x, int y)
 {
     this->pos.x = x;

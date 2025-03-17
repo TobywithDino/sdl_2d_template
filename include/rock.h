@@ -6,6 +6,7 @@ class Rock : public Obj
 {
 public:
     Rock();
+    ~Rock() override;
     void handleEvent(SDL_Event &e) override;
     void update() override;
     void render() override;

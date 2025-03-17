@@ -9,7 +9,7 @@ protected:
     Coord2D vel;
 public:
     Obj();
-    virtual ~Obj() {}
+    virtual ~Obj();
     virtual void handleEvent(SDL_Event &e) = 0; // classes that inherit Obj need to implement virtual method
     virtual void update() = 0;
     virtual void render() = 0;

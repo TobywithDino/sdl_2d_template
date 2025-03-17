@@ -27,7 +27,6 @@ all: ensure_build_dir $(PROJECT_NAME)
 
 release: ensure_build_dir $(RELEASE_NAME)
 
-
 ensure_build_dir:
 	mkdir -p build
 

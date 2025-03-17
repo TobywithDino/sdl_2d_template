@@ -1,3 +1,4 @@
+#include <iostream>
 #include "game.h"
 #include "object.h"
 #include "rock.h"
@@ -59,6 +60,7 @@ int Game::init()
     objs.resize(max_objs_count, nullptr);
     for(Obj* &obj : objs)
     {
+        Rock *a = new Rock();
         obj = new Rock();
     }
     objs[0]->setPos(50,50);
